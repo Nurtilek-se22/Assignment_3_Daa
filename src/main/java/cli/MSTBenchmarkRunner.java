@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.*;
 
 public class MSTBenchmarkRunner {
-
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     public static void main(String[] args) {
