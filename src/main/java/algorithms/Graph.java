@@ -17,7 +17,6 @@ public class Graph {
             adjacencyList.add(new ArrayList<>());
         }
     }
-
     public void addEdge(int from, int to, int weight) {
         Edge edge = new Edge(from, to, weight);
         edges.add(edge);
