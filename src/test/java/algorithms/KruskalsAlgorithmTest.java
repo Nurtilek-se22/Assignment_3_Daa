@@ -37,7 +37,6 @@ public class KruskalsAlgorithmTest {
         mediumGraph.addEdge(3, 4, 3);
         mediumGraph.addEdge(3, 5, 2);
         mediumGraph.addEdge(4, 5, 6);
-
         // Create large connected graph
         largeGraph = new Graph(8);
         largeGraph.addEdge(0, 1, 2);
