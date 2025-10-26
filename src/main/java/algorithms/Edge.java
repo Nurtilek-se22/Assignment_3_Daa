@@ -13,7 +13,6 @@ public class Edge implements Comparable<Edge> {
         this.to = Math.max(from, to);
         this.weight = weight;
     }
-
     public int getFrom() {
         return from;
     }

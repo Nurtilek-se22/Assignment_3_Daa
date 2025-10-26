@@ -18,7 +18,6 @@ public class PrimsAlgorithm {
         List<Edge> mst = new ArrayList<>();
         boolean[] inMST = new boolean[graph.getVertices()];
         PriorityQueue<Edge> minHeap = new PriorityQueue<>();
-
         // Start with vertex 0
         inMST[0] = true;
 

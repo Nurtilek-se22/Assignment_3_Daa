@@ -13,7 +13,6 @@ public class KruskalsAlgorithm {
         if (!graph.isConnected()) {
             throw new IllegalArgumentException("Graph is not connected. MST does not exist.");
         }
-
         List<Edge> mst = new ArrayList<>();
         List<Edge> allEdges = new ArrayList<>(graph.getEdges());
 
