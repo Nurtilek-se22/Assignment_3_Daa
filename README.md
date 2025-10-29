@@ -188,37 +188,6 @@ If I were building a tool for city planners, I'd:
 
 The theoretical analysis partially matches practice. While both are O(E log) complexity, the constant factors heavily favor Kruskal on sparse graphs. The Union-Find data structure is a beautiful piece of computer science - simple concept, extraordinary efficiency.
 
-## How to Run
-
-### 1. Compile the Project
-```bash
-mvn compile
-```
-
-### 2. Run Benchmarks
-```bash
-mvn exec:java -Dexec.mainClass="cli.MSTBenchmarkRunner"
-```
-
-### 3. Run Tests (33 tests)
-```bash
-mvn test
-```
-
-### 4. Generate Performance Analysis
-```bash
-mvn exec:java -Dexec.mainClass="analysis.MSTPerformanceAnalyzer"
-```
-
-### 5. Generate CSV Summary
-```bash
-mvn exec:java -Dexec.mainClass="analysis.CSVSummaryGenerator"
-```
-
-### 6. Generate Graph Visualizations
-```bash
-mvn exec:java -Dexec.mainClass="visualization.GraphVisualizer"
-```
 
 ## Output Files
 
