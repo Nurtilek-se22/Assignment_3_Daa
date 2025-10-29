@@ -47,6 +47,9 @@ I created 28 test graphs with increasing complexity:
 | Extra Large | 105-150 | 164-278 | 8 | Stress testing |
 
 ## Results
+<img width="1336" height="720" alt="Снимок экрана 2025-10-29 в 16 33 25" src="https://github.com/user-attachments/assets/491794db-bd4e-48e4-a500-f4e533a25815" />
+<img width="1333" height="717" alt="Снимок экрана 2025-10-29 в 16 33 37" src="https://github.com/user-attachments/assets/10218a7a-bad3-479e-93d4-6997a57a9f71" />
+
 
 All graphs are connected and sparse (edge-to-vertex ratio between 2 and 4), representing realistic city networks where you don't need direct roads between every pair of districts.
 
